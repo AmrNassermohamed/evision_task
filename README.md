@@ -1,16 +1,25 @@
 # evision_task
 
-A new Flutter project.
 
-## Getting Started
+# Evision task
+get apiRepo and show in listview and gridview
 
-This project is a starting point for a Flutter application.
+## Acknowledgements
 
-A few resources to get you started if this is your first Flutter project:
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API Reference
+
+#### Get all repos
+
+```http
+  GET /api.github.com/users/Flutter/repos
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `full_name` | `string` | **Required**. Your API key |
+
